@@ -17,9 +17,9 @@ def movie_ranker_scraper
       description: 	  project.css("div.listItem__data span.listItem__props.block div.listItem__blather.grey.default span").text,
       actors:         project.css("div.listItem__data span.listItem__props.block span").text
     }
+  binding.pry
   end 
+  binding.pry
   movies
-
-end
 
 end
